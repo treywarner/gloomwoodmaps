@@ -1,0 +1,15 @@
+{
+    "name": "PROMETHEUS",
+    "description": "Light the pedestal on fire",
+    "difficulty": "Full Moon",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 6
+    },
+    "saveType": "Standard",
+    "saveSlot": 2,
+    "dateTime": "08/16/23 15:35:17",
+    "gameTime": 0.0,
+    "$version": "v1"
+}

@@ -1,0 +1,222 @@
+{
+    "playerId": 0,
+    "objectData": {
+        "name": "Player",
+        "id": {
+            "id": "Player_(0.00, 0.00, 0.00)",
+            "guid": ""
+        },
+        "entityId": "player",
+        "active": true,
+        "type": "Player",
+        "flags": 1,
+        "position": {
+            "x": 7.28294992446899,
+            "y": 14.1149997711182,
+            "z": 55.5612564086914
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 229.396636962891,
+            "z": 0.0
+        },
+        "components": [
+            {
+                "id": "control",
+                "data": {
+                    "controlMode": "FirstPerson",
+                    "lastControlMode": "FirstPerson",
+                    "$type": "Gloomwood.Players.PlayerControlState+PlayerControlData"
+                }
+            },
+            {
+                "id": "sounds",
+                "data": {
+                    "music": true,
+                    "musicTrack": "music_market",
+                    "musicLoop": true,
+                    "musicPaused": true,
+                    "musicBlocked": true,
+                    "musicTime": 414.132232666016,
+                    "musicPriority": 0,
+                    "$type": "Gloomwood.Players.PlayerSounds+StateData"
+                }
+            },
+            {
+                "id": "mobility",
+                "data": {
+                    "crouch": true,
+                    "breathTime": 30.0,
+                    "$type": "Gloomwood.Players.PlayerMovement+PlayerMobilityData"
+                }
+            },
+            {
+                "id": "health",
+                "data": {
+                    "percentage": 0.200000002980232,
+                    "invincibilityTime": 0.0,
+                    "invincibilityFrames": 0,
+                    "$type": "Gloomwood.Entity.EntityHealth+HealthData"
+                }
+            },
+            {
+                "id": "equipment",
+                "data": {
+                    "hasWeapon": false,
+                    "hasOffhand": false,
+                    "forcedDrawnState": 0,
+                    "activeDrawnState": 0,
+                    "offhandForcedState": 0,
+                    "offhandDrawnState": 0,
+                    "inspected": [
+                        "item_shotgun",
+                        "item_undertaker",
+                        "item_handlantern",
+                        "item_revolver"
+                    ],
+                    "weaponData": null,
+                    "weaponLinkData": null,
+                    "offhandData": null,
+                    "offhandLinkData": null,
+                    "inventoryData": {
+                        "items": [
+                            {
+                                "id": "item_luggagecase",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_journal",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 1,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "market_manor_backdoor_1",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 2,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "market_dock_powerstation",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "market_gunshop_frontdoor",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "market_gunshop_displaycase",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "market_gunshop_cashier",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "market_shack_1",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            }
+                        ],
+                        "shortcuts": [],
+                        "$type": "Gloomwood.Entity.Items.PlayerInventory+InventoryData"
+                    },
+                    "journalData": {
+                        "readables": [
+                            {
+                                "entityId": "readable_list",
+                                "contentId": "note_market_constable_order_1",
+                                "index": 0
+                            }
+                        ],
+                        "$type": "Gloomwood.Entity.Items.PlayerJournal+StateData"
+                    },
+                    "$type": "Gloomwood.Players.PlayerEquipment+StateData"
+                }
+            }
+        ]
+    }
+}

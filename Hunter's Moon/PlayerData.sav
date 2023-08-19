@@ -1,0 +1,267 @@
+{
+    "playerId": 0,
+    "objectData": {
+        "name": "Player",
+        "id": {
+            "id": "Player_(0.00, -31.50, 0.00)",
+            "guid": ""
+        },
+        "entityId": "player",
+        "active": true,
+        "type": "Player",
+        "flags": 1,
+        "position": {
+            "x": 36.0699729919434,
+            "y": -11.8850002288818,
+            "z": 43.3568458557129
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 158.911071777344,
+            "z": 0.0
+        },
+        "components": [
+            {
+                "id": "sounds",
+                "data": {
+                    "music": true,
+                    "musicTrack": "music_coast_fishery",
+                    "musicLoop": true,
+                    "musicPaused": false,
+                    "musicBlocked": true,
+                    "musicTime": 34.1759986877441,
+                    "musicPriority": 0,
+                    "$type": "Gloomwood.Players.PlayerSounds+StateData"
+                }
+            },
+            {
+                "id": "mobility",
+                "data": {
+                    "crouch": true,
+                    "breathTime": 30.0,
+                    "$type": "Gloomwood.Players.PlayerMovement+PlayerMobilityData"
+                }
+            },
+            {
+                "id": "health",
+                "data": {
+                    "percentage": 0.00999999977648258,
+                    "invincibilityTime": 0.0,
+                    "invincibilityFrames": 0,
+                    "$type": "Gloomwood.Entity.EntityHealth+HealthData"
+                }
+            },
+            {
+                "id": "control",
+                "data": {
+                    "controlMode": "FirstPerson",
+                    "lastControlMode": "Menu",
+                    "$type": "Gloomwood.Players.PlayerControlState+PlayerControlData"
+                }
+            },
+            {
+                "id": "equipment",
+                "data": {
+                    "hasWeapon": false,
+                    "hasOffhand": false,
+                    "forcedDrawnState": 0,
+                    "activeDrawnState": 0,
+                    "offhandForcedState": 0,
+                    "offhandDrawnState": 0,
+                    "inspected": [
+                        "item_canesword",
+                        "item_handlantern",
+                        "item_revolver",
+                        "item_shotgun",
+                        "item_undertaker",
+                        "item_legtrap",
+                        "item_lightgemring"
+                    ],
+                    "weaponData": null,
+                    "weaponLinkData": null,
+                    "offhandData": null,
+                    "offhandLinkData": null,
+                    "inventoryData": {
+                        "items": [
+                            {
+                                "id": "item_luggagecase",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "coast_fishery_cabin",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_lightgemring",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 4,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_coin",
+                                "quantity": 4,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 5,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "padlock_coast_cliff_wall",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_luggagecase",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "fishery_powerroom",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            }
+                        ],
+                        "shortcuts": [
+                            {
+                                "slot": 0,
+                                "item": true,
+                                "itemTypeId": null,
+                                "grid": {
+                                    "index": 4,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            }
+                        ],
+                        "$type": "Gloomwood.Entity.Items.PlayerInventory+InventoryData"
+                    },
+                    "journalData": {
+                        "readables": [
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_TAVERN_MURDERER",
+                                "index": 0
+                            },
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_TAVERN_VALVE",
+                                "index": 1
+                            },
+                            {
+                                "entityId": "map_treasure_coast_1",
+                                "contentId": "map_treasure_coast_1",
+                                "index": 2
+                            },
+                            {
+                                "entityId": "map_sketch_countryside_1",
+                                "contentId": "map_sketch_countryside_1",
+                                "index": 3
+                            },
+                            {
+                                "entityId": "readable_inventorymanual",
+                                "contentId": "note_inventory_manual",
+                                "index": 4
+                            },
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_FISHERY_POWERKEY",
+                                "index": 5
+                            },
+                            {
+                                "entityId": "map_fishery_basement",
+                                "contentId": "map_fishery_basement",
+                                "index": 6
+                            },
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_FISHERY_MANAGER",
+                                "index": 7
+                            },
+                            {
+                                "entityId": "map_fishery_f1",
+                                "contentId": "map_fishery_f1",
+                                "index": 8
+                            },
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_FISHERY_LIFTBUTTON",
+                                "index": 9
+                            }
+                        ],
+                        "$type": "Gloomwood.Entity.Items.PlayerJournal+StateData"
+                    },
+                    "$type": "Gloomwood.Players.PlayerEquipment+StateData"
+                }
+            }
+        ]
+    }
+}

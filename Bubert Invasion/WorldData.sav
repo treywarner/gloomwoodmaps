@@ -1,0 +1,11 @@
+{
+    "globalValues": {
+        "pairs": [
+            {
+                "key": "cliffside_reached",
+                "value": "1"
+            }
+        ],
+        "$type": "Gloomwood.SerializableKeyValueDict+StateData"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "difficulty": 2,
+    "level": "Coast_Fishery",
+    "levels": [
+        "Coast_Fishery",
+        "Coast_Cliffside",
+        "Coast_Tavern",
+        "Coast_Caves"
+    ],
+    "$version": "v1"
+}

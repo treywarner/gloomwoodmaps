@@ -1,0 +1,383 @@
+{
+    "playerId": 0,
+    "objectData": {
+        "name": "Player",
+        "id": {
+            "id": "Player_(-57.18, 2.00, 91.47)",
+            "guid": ""
+        },
+        "entityId": "player",
+        "active": true,
+        "type": "Player",
+        "flags": 1,
+        "position": {
+            "x": 107.055313110352,
+            "y": -10.0920162200928,
+            "z": 201.166458129883
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 251.010025024414,
+            "z": 0.0
+        },
+        "components": [
+            {
+                "id": "sounds",
+                "data": {
+                    "music": false,
+                    "musicTrack": "",
+                    "musicLoop": false,
+                    "musicPaused": true,
+                    "musicBlocked": true,
+                    "musicTime": 0.0,
+                    "musicPriority": 0,
+                    "$type": "Gloomwood.Players.PlayerSounds+StateData"
+                }
+            },
+            {
+                "id": "mobility",
+                "data": {
+                    "crouch": false,
+                    "breathTime": 30.0,
+                    "$type": "Gloomwood.Players.PlayerMovement+PlayerMobilityData"
+                }
+            },
+            {
+                "id": "control",
+                "data": {
+                    "controlMode": "FirstPerson",
+                    "lastControlMode": "FirstPerson",
+                    "$type": "Gloomwood.Players.PlayerControlState+PlayerControlData"
+                }
+            },
+            {
+                "id": "equipment",
+                "data": {
+                    "hasWeapon": true,
+                    "hasOffhand": true,
+                    "forcedDrawnState": 0,
+                    "activeDrawnState": 1,
+                    "offhandForcedState": 0,
+                    "offhandDrawnState": 1,
+                    "inspected": [
+                        "item_undertaker",
+                        "item_canesword",
+                        "item_revolver",
+                        "item_shotgun",
+                        "item_handlantern"
+                    ],
+                    "weaponData": {
+                        "entityID": "weapon_canesword",
+                        "loadedAmmoType": 0,
+                        "loadedAmmoCount": 0,
+                        "drawnState": 1,
+                        "lastDrawnState": 1,
+                        "lit": false,
+                        "$type": "Gloomwood.Entity.Weapons.Weapon+WeaponData"
+                    },
+                    "weaponLinkData": {
+                        "index": 0,
+                        "positionX": 0,
+                        "positionY": 0,
+                        "rotation": 0,
+                        "$type": "Gloomwood.Entity.Items.InventoryGridVector"
+                    },
+                    "offhandData": {
+                        "entityID": "weapon_handlantern",
+                        "loadedAmmoType": 0,
+                        "loadedAmmoCount": 0,
+                        "drawnState": 2,
+                        "lastDrawnState": 1,
+                        "lit": false,
+                        "$type": "Gloomwood.Entity.Weapons.Weapon+WeaponData"
+                    },
+                    "offhandLinkData": {
+                        "index": 1,
+                        "positionX": 0,
+                        "positionY": 0,
+                        "rotation": 0,
+                        "$type": "Gloomwood.Entity.Items.InventoryGridVector"
+                    },
+                    "inventoryData": {
+                        "items": [
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 2,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "coast_tavern_basement",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "coast_tavern_rooms",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_luggagecase",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": false,
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_lightgemring",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 1,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 4,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_canesword",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 5,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 0,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_handlantern",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 5,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_shotgun",
+                                "quantity": 1,
+                                "loadedType": "item_shotgunshell",
+                                "loadedQuantity": 1,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 1
+                                }
+                            },
+                            {
+                                "id": "item_revolver",
+                                "quantity": 1,
+                                "loadedType": "item_revolverroundbox",
+                                "loadedQuantity": 3,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 1,
+                                    "positionY": 0,
+                                    "rotation": 3
+                                }
+                            },
+                            {
+                                "id": "item_undertaker",
+                                "quantity": 1,
+                                "loadedType": "item_undertaker_choke",
+                                "loadedQuantity": 1,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 1,
+                                    "positionY": 2,
+                                    "rotation": 1
+                                }
+                            },
+                            {
+                                "id": "item_undertaker_choke",
+                                "quantity": 2,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 2,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_undertaker_slug",
+                                "quantity": 3,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 2,
+                                    "positionY": 1,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_coin",
+                                "quantity": 102,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": true,
+                                "grid": {
+                                    "index": 5,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            }
+                        ],
+                        "shortcuts": [
+                            {
+                                "slot": 0,
+                                "item": true,
+                                "itemTypeId": null,
+                                "grid": {
+                                    "index": 4,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "slot": 1,
+                                "item": true,
+                                "itemTypeId": null,
+                                "grid": {
+                                    "index": 0,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "slot": 2,
+                                "item": true,
+                                "itemTypeId": null,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 1,
+                                    "positionY": 0,
+                                    "rotation": 3
+                                }
+                            },
+                            {
+                                "slot": 3,
+                                "item": true,
+                                "itemTypeId": null,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 1
+                                }
+                            },
+                            {
+                                "slot": 4,
+                                "item": true,
+                                "itemTypeId": null,
+                                "grid": {
+                                    "index": 6,
+                                    "positionX": 1,
+                                    "positionY": 2,
+                                    "rotation": 1
+                                }
+                            }
+                        ],
+                        "$type": "Gloomwood.Entity.Items.PlayerInventory+InventoryData"
+                    },
+                    "journalData": {
+                        "readables": [
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_TAVERN_BARRICADE",
+                                "index": 0
+                            },
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_TAVERN_VALVE",
+                                "index": 1
+                            },
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_TAVERN_MURDERER",
+                                "index": 2
+                            },
+                            {
+                                "entityId": "readable_list",
+                                "contentId": "NOTE_TAVERN_BOUNTY",
+                                "index": 3
+                            },
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_TAVERN_SPAREKEY",
+                                "index": 4
+                            },
+                            {
+                                "entityId": "readable_note",
+                                "contentId": "NOTE_TAVERN_CODE_1",
+                                "index": 5
+                            }
+                        ],
+                        "$type": "Gloomwood.Entity.Items.PlayerJournal+StateData"
+                    },
+                    "$type": "Gloomwood.Players.PlayerEquipment+StateData"
+                }
+            }
+        ]
+    }
+}

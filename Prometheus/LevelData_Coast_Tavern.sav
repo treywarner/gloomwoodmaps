@@ -1,0 +1,3289 @@
+{
+    "levelID": "Coast_Tavern",
+    "ai": [
+        {
+            "name": "AI_Goatman",
+            "id": {
+                "id": "AI_Goatman_(-3.40, 0.00, -20.95)",
+                "guid": ""
+            },
+            "entityId": "ai_goatman",
+            "active": true,
+            "type": "AI",
+            "flags": 1,
+            "position": {
+                "x": 19.1148834228516,
+                "y": 0.0833339691162109,
+                "z": -26.5057067871094
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 103.990745544434,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "think",
+                    "data": {
+                        "tasks": {
+                            "interact": null,
+                            "leash": null,
+                            "search": null,
+                            "chase": null,
+                            "flee": null,
+                            "lure": null,
+                            "converse": null,
+                            "daze": null,
+                            "react": null,
+                            "sleep": null,
+                            "taskQueueData": [
+                                {
+                                    "id": "AIPatrol_Default",
+                                    "data": {
+                                        "pathId": "AIPath_Patrol_1stFloor(0.00, 0.00, 0.00)",
+                                        "hasGoal": true,
+                                        "hasNextGoal": false,
+                                        "returnWaitPoint": false,
+                                        "targetSpeed": 2,
+                                        "waitTimer": -0.0203747749328613,
+                                        "currentGoal": {
+                                            "completed": false,
+                                            "setFacing": true,
+                                            "waitTime": 6.84213209152222,
+                                            "position": {
+                                                "x": 20.8885498046875,
+                                                "y": 0.0,
+                                                "z": -26.9476280212402
+                                            },
+                                            "forward": {
+                                                "x": 0.92387992143631,
+                                                "y": 0.0,
+                                                "z": 0.382682502269745
+                                            },
+                                            "pointIndex": 3,
+                                            "direction": 1,
+                                            "remainingIndexes": []
+                                        },
+                                        "nextGoal": {
+                                            "completed": false,
+                                            "setFacing": true,
+                                            "waitTime": 5.63337707519531,
+                                            "position": {
+                                                "x": 20.8885498046875,
+                                                "y": 0.0,
+                                                "z": -26.9476280212402
+                                            },
+                                            "forward": {
+                                                "x": 0.92387992143631,
+                                                "y": 0.0,
+                                                "z": 0.382682502269745
+                                            },
+                                            "pointIndex": 3,
+                                            "direction": 1,
+                                            "remainingIndexes": {
+                                                "$content": [],
+                                                "$id": "3"
+                                            }
+                                        },
+                                        "pathInfo": {
+                                            "order": "RandomOrder",
+                                            "index": 3,
+                                            "lastIndex": 0,
+                                            "min": 0,
+                                            "max": -1,
+                                            "direction": 1,
+                                            "remainingIndexes": {
+                                                "$ref": "3"
+                                            }
+                                        },
+                                        "goalPosition": {
+                                            "x": 20.8885498046875,
+                                            "y": 0.0833339691162109,
+                                            "z": -26.9476280212402
+                                        },
+                                        "$type": "Gloomwood.AI.Tasks.AIPatrolTask+StateData"
+                                    },
+                                    "creatorId": "AITask_Patrol_1stFloor_(0.00, 0.00, 0.00)",
+                                    "$type": "Gloomwood.AI.Tasks.AITaskData"
+                                }
+                            ],
+                            "$type": "Gloomwood.AI.Tasks.AITaskDecider+StateData"
+                        },
+                        "reactions": [],
+                        "$type": "Gloomwood.AI.AIThink+StateData"
+                    }
+                },
+                {
+                    "id": "mobility",
+                    "data": {
+                        "navMeshPosition": {
+                            "x": 19.1148834228516,
+                            "y": 0.0833339691162109,
+                            "z": -26.5057067871094
+                        },
+                        "leashGoal": {
+                            "target": {
+                                "x": 20.8885498046875,
+                                "y": 0.0833339691162109,
+                                "z": -26.9476280212402
+                            },
+                            "speed": "Normal",
+                            "speedMod": 1.0,
+                            "accelerationMod": 1.0,
+                            "face": {
+                                "faceType": "MoveDirection",
+                                "faceSpeedMod": 1.0,
+                                "target": {
+                                    "x": -0.707107305526733,
+                                    "y": 0.0,
+                                    "z": -0.707106471061707
+                                }
+                            },
+                            "path": {
+                                "points": [
+                                    {
+                                        "x": 18.8116703033447,
+                                        "y": 0.0833339691162109,
+                                        "z": -26.4301586151123
+                                    },
+                                    {
+                                        "x": 20.8885498046875,
+                                        "y": 0.0833339691162109,
+                                        "z": -26.9476280212402
+                                    }
+                                ],
+                                "length": 2.14037442207336,
+                                "areaMask": 15,
+                                "status": "PathComplete",
+                                "sourcePath": {
+
+                                }
+                            }
+                        },
+                        "delayMoveTime": 0.0,
+                        "immobilizeTime": 0.0,
+                        "stopDistance": 0.5,
+                        "$type": "Gloomwood.AI.AIMobility+AIMobilityData"
+                    }
+                },
+                {
+                    "id": "inventory",
+                    "data": {
+                        "spawned": false,
+                        "items": [],
+                        "slots": [
+                            {
+                                "slotIndex": 0,
+                                "pickupId": {
+                                    "id": "Pickup_Key_Standard_(-2.33, 4.75, -20.43)",
+                                    "guid": ""
+                                }
+                            }
+                        ],
+                        "$type": "Gloomwood.Entity.AI.AIInventory+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        }
+    ],
+    "corpses": [],
+    "pickups": [
+        {
+            "name": "Pickup_Key_Tavern_Basement (2)",
+            "id": {
+                "id": "Pickup_Key_Standard_(22.37, 18.13, -17.50)",
+                "guid": ""
+            },
+            "entityId": "pickup_key_standard",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 22.3673000335693,
+                "y": 18.129222869873,
+                "z": -17.5006008148193
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 1.70733728737105E-05,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": true,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle (2)",
+            "id": {
+                "id": "Pickup_Bottle_(13.52, 1.79, -49.53)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Gold",
+            "id": {
+                "id": "Pickup_Coin_Gold_(1.47, 1.54, -3.82)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Apple (2)",
+            "id": {
+                "id": "Pickup_Apple_(19.63, -8.95, -28.72)",
+                "guid": ""
+            },
+            "entityId": "pickup_apple",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Revolver",
+            "id": {
+                "id": "Pickup_Revolver_(-0.75, 0.41, -44.06)",
+                "guid": ""
+            },
+            "entityId": "pickup_revolver",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle",
+            "id": {
+                "id": "Pickup_Bottle_(9.73, 2.34, -29.57)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle",
+            "id": {
+                "id": "Pickup_Bottle_(25.35, 2.40, -29.06)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Pouch",
+            "id": {
+                "id": "Pickup_Coin_Pouch_(27.18, 0.56, -48.14)",
+                "guid": ""
+            },
+            "entityId": "pickup_coinpouch",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle (1)",
+            "id": {
+                "id": "Pickup_Bottle_(25.18, 1.22, -31.01)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Canned_Beans_1",
+            "id": {
+                "id": "Pickup_Canned_Beans_1_Full_(24.92, 1.22, -27.68)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_beans",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_LegTrap",
+            "id": {
+                "id": "Pickup_LegTrap_(0.83, 3.47, 3.15)",
+                "guid": ""
+            },
+            "entityId": "pickup_legtrap",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle",
+            "id": {
+                "id": "Pickup_Bottle_(25.27, 1.22, -22.24)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Gold (3)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(11.48, -9.74, -51.02)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle (1)",
+            "id": {
+                "id": "Pickup_Bottle_(25.26, 2.57, -30.33)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle (5)",
+            "id": {
+                "id": "Pickup_Bottle_(24.77, 2.41, -20.08)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Cheese",
+            "id": {
+                "id": "Pickup_Cheese_(19.48, -8.82, -29.49)",
+                "guid": ""
+            },
+            "entityId": "pickup_cheese",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle",
+            "id": {
+                "id": "Pickup_Bottle_(35.85, 1.76, -51.51)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Canned_Beans_Empty (1)",
+            "id": {
+                "id": "Pickup_Canned_Beans_1_Empty_(33.72, 1.77, -51.16)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_beans_empty",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle (4)",
+            "id": {
+                "id": "Pickup_Bottle_(-14.64, 2.09, -14.42)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle (2)",
+            "id": {
+                "id": "Pickup_Bottle_(24.94, 1.22, -30.16)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Apple (3)",
+            "id": {
+                "id": "Pickup_Apple_(20.03, -8.95, -28.90)",
+                "guid": ""
+            },
+            "entityId": "pickup_apple",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Button_Presser (1)",
+            "id": {
+                "id": "Pickup_Button_Presser_(22.77, 17.44, -31.03)",
+                "guid": ""
+            },
+            "entityId": "pickup_button_presser",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 22.7681007385254,
+                "y": 17.4245777130127,
+                "z": -31.0294170379639
+            },
+            "rotation": {
+                "x": 270.019775390625,
+                "y": -0.000669211032800376,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": true,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Key_Tavern_Basement",
+            "id": {
+                "id": "Pickup_Key_Standard_(-2.33, 4.75, -20.43)",
+                "guid": ""
+            },
+            "entityId": "pickup_key_standard",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 18.8506183624268,
+                "y": 5.50015640258789,
+                "z": -25.6943054199219
+            },
+            "rotation": {
+                "x": 63.6269569396973,
+                "y": 137.697570800781,
+                "z": 22.831714630127
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 0,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": false,
+                        "kinematic": true,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                },
+                {
+                    "id": "pickup",
+                    "data": {
+                        "stored": true,
+                        "attached": true,
+                        "item": false,
+                        "drag": false,
+                        "rolledLoot": false,
+                        "quantity": 1,
+                        "loadedQuantity": 0,
+                        "loadedType": "",
+                        "chamberStates": null,
+                        "keyId": "coast_tavern_basement",
+                        "examineId": null,
+                        "attachData": {
+                            "targetId": {
+                                "id": "AI_Goatman_(-3.40, 0.00, -20.95)",
+                                "guid": ""
+                            },
+                            "boneId": "Bone_Slot_1",
+                            "position": {
+                                "x": 0.0,
+                                "y": -0.193800002336502,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false,
+                            "$type": "Gloomwood.Entity.EntityBoneAttachData"
+                        },
+                        "$type": "Gloomwood.Entity.Items.ItemPickup+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Can_Fish_1_Empty",
+            "id": {
+                "id": "Pickup_Canned_Fish_1_Empty_(25.03, 1.22, -18.85)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_fish_empty",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Key_Tavern_Rooms",
+            "id": {
+                "id": "",
+                "guid": "3p2P0C920kGP7Nd4R1HkmQ=="
+            },
+            "entityId": "pickup_key_standard",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 25.773099899292,
+                "y": 3.21659994125366,
+                "z": -26.6483993530273
+            },
+            "rotation": {
+                "x": -6.1880266002845E-05,
+                "y": 89.9997177124023,
+                "z": -6.87560241203755E-05
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 0,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": false,
+                        "kinematic": true,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Gold (1)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(25.23, 1.22, -23.57)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Canned_Beans_1",
+            "id": {
+                "id": "Pickup_Canned_Beans_1_Full_(29.56, -9.00, -17.12)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_beans",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Gold (2)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(21.62, 2.35, -38.65)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_LegTrap (1)",
+            "id": {
+                "id": "Pickup_LegTrap_(3.08, 3.47, 3.15)",
+                "guid": ""
+            },
+            "entityId": "pickup_legtrap",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Canned_Beans_Empty",
+            "id": {
+                "id": "Pickup_Canned_Beans_1_Empty_(25.23, 1.22, -31.68)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_beans_empty",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Bottle (3)",
+            "id": {
+                "id": "Pickup_Bottle_(24.77, 1.22, -20.35)",
+                "guid": ""
+            },
+            "entityId": "pickup_bottle",
+            "active": false,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver_Stack_10",
+            "id": {
+                "id": "Pickup_Coin_Gold_(7.87, 9.83, -52.32)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin_stack",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver (2)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(5.28, 1.13, -51.56)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver (3)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(22.73, 18.26, -31.05)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 22.7338047027588,
+                "y": 18.2490558624268,
+                "z": -31.0544700622559
+            },
+            "rotation": {
+                "x": 4.81887691421434E-05,
+                "y": -0.000376014068024233,
+                "z": 0.000146508973557502
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": true,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver_Stack_20",
+            "id": {
+                "id": "Pickup_Coin_Gold_(8.14, 9.83, -52.66)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin_stack",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver (5)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(14.83, 18.26, -43.51)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 14.8298997879028,
+                "y": 18.2490558624268,
+                "z": -43.5147285461426
+            },
+            "rotation": {
+                "x": 3.67866741726175E-05,
+                "y": 239.999801635742,
+                "z": 8.14888335298747E-05
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": true,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver (1)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(43.11, 1.60, -51.04)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver_Stack_10",
+            "id": {
+                "id": "Pickup_Coin_Gold_(25.10, 1.22, -23.30)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin_stack",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver (4)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(15.11, 18.26, -43.73)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 15.112247467041,
+                "y": 18.2490558624268,
+                "z": -43.7268981933594
+            },
+            "rotation": {
+                "x": 0.000105351944512222,
+                "y": 0.000176338871824555,
+                "z": 0.000630950496997684
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": true,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver",
+            "id": {
+                "id": "Pickup_Coin_Gold_(43.34, 1.60, -50.74)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Shotgun",
+            "id": {
+                "id": "Pickup_Shotgun_Folded_(-1.88, 13.13, -48.01)",
+                "guid": ""
+            },
+            "entityId": "pickup_shotgun",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Canned_Fish_1 (1)",
+            "id": {
+                "id": "Pickup_Can_1_(29.72, -9.00, -16.22)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_fish",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Canned_Fish_1 (1)",
+            "id": {
+                "id": "Pickup_Can_1_(24.93, 1.22, -26.52)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_fish",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Canned_Fish_1",
+            "id": {
+                "id": "Pickup_Can_1_(29.53, -9.00, -15.76)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_fish",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Canned_Fish_1",
+            "id": {
+                "id": "Pickup_Can_1_(24.98, 1.22, -28.39)",
+                "guid": ""
+            },
+            "entityId": "pickup_can_fish",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Horn_Ulmar",
+            "id": {
+                "id": "Pickup_Horn_Ulmar_(-23.75, 3.68, -11.81)",
+                "guid": ""
+            },
+            "entityId": "pickup_horn_ulmar",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Undertaker_Ammo_Choke",
+            "id": {
+                "id": "",
+                "guid": "nwOFV2YYREWLyy6UDQvGbQ=="
+            },
+            "entityId": "pickup_undertaker_choke",
+            "active": true,
+            "type": "Pickup",
+            "flags": 3,
+            "position": {
+                "x": 25.8320007324219,
+                "y": -10.2049999237061,
+                "z": -29.0899963378906
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 337.499877929688,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 3,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": false,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Entity_Pickup_ShotgunShell",
+            "id": {
+                "id": "",
+                "guid": "0fXY0+M4LkmWbebnylagfg=="
+            },
+            "entityId": "pickup_shotgunshell",
+            "active": true,
+            "type": "Pickup",
+            "flags": 3,
+            "position": {
+                "x": 22.693489074707,
+                "y": 16.7106437683105,
+                "z": -17.2157974243164
+            },
+            "rotation": {
+                "x": -0.00300280284136534,
+                "y": 0.00288111995905638,
+                "z": 0.00875905435532331
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Entity_Pickup_Undertaker_Ammo_Slug",
+            "id": {
+                "id": "",
+                "guid": "BuSCLVeucE+/yNAGmdYc4A=="
+            },
+            "entityId": "pickup_undertaker_slug",
+            "active": true,
+            "type": "Pickup",
+            "flags": 3,
+            "position": {
+                "x": 41.6999015808105,
+                "y": 16.9760475158691,
+                "z": -52.9771385192871
+            },
+            "rotation": {
+                "x": 2.15383056456631E-06,
+                "y": 37.4999504089355,
+                "z": 5.48310781596228E-05
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        }
+    ],
+    "objs": [
+        {
+            "name": "Pickup_Giblet_Woodsman_Arm_Right",
+            "id": {
+                "id": "Pickup_Giblet_Woodsman_Arm_Right_(-14.35, 2.27, -13.66)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Giblet_Woodsman_Head",
+            "id": {
+                "id": "Giblet_Woodsman_Head_(-15.15, -5.52, -5.09)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Physics_Crate_Wood_Medical",
+            "id": {
+                "id": "Physics_Crate_Wood_Medical_(-14.94, -9.23, -8.75)",
+                "guid": ""
+            },
+            "entityId": "physics_crate_medical",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Giblet_Huntsman_Leg_Left",
+            "id": {
+                "id": "Pickup_Giblet_Huntsman_Leg_Left_(-20.76, -8.77, -2.37)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Cheese",
+            "id": {
+                "id": "Pickup_Cheese_(33.73, 10.11, -52.60)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "AIMusicTrigger",
+            "id": {
+                "id": "AIMusicTrigger_(0.00, 0.00, 0.00)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "ai_music",
+                    "data": {
+                        "playing": true,
+                        "$type": "Gloomwood.AI.AIMusicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Giblet_Huntsman_Leg_Left (1)",
+            "id": {
+                "id": "Pickup_Giblet_Huntsman_Leg_Left_(10.14, 0.13, -25.82)",
+                "guid": ""
+            },
+            "entityId": "giblet_huntsman_leg_left",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Giblet_Huntsman_Head",
+            "id": {
+                "id": "Pickup_Giblet_Huntsman_Head_(4.86, 0.49, -26.25)",
+                "guid": ""
+            },
+            "entityId": "giblet_huntsman_head",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Physics_Axe (1)",
+            "id": {
+                "id": "Physics_Axe_(5.95, 2.18, -18.55)",
+                "guid": ""
+            },
+            "entityId": "physics_axe",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 5.95100021362305,
+                "y": 2.18099999427795,
+                "z": -18.55299949646
+            },
+            "rotation": {
+                "x": 15.000147819519,
+                "y": 322.500061035156,
+                "z": 8.83892141700926E-07
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 0,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": false,
+                        "kinematic": true,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Huntsman_Giblet_Pelvis",
+            "id": {
+                "id": "Huntsman_Giblet_Pelvis_(24.11, 0.38, -34.08)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "FireSource",
+            "id": {
+                "id": "Fire_Candle_Chandelier_(16.08, 11.76, -23.89)",
+                "guid": ""
+            },
+            "entityId": "fire_candle_chandelier",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "fire",
+                    "data": {
+                        "burning": true,
+                        "decaying": false,
+                        "spreadable": true,
+                        "healthAmount": 1,
+                        "ignoreId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "instigatorId": {
+                            "id": "Fire_Candle_Chandelier_(16.08, 11.76, -23.89)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.World.FireSource+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "FireSource",
+            "id": {
+                "id": "Fire_Candle_Chandelier_(6.33, 11.76, -23.89)",
+                "guid": ""
+            },
+            "entityId": "fire_candle_chandelier",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "fire",
+                    "data": {
+                        "burning": true,
+                        "decaying": false,
+                        "spreadable": true,
+                        "healthAmount": 1,
+                        "ignoreId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "instigatorId": {
+                            "id": "Fire_Candle_Chandelier_(6.33, 11.76, -23.89)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.World.FireSource+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "FireSource",
+            "id": {
+                "id": "Fire_Candle_Chandelier_(-15.20, 11.76, -13.68)",
+                "guid": ""
+            },
+            "entityId": "fire_candle_chandelier",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "fire",
+                    "data": {
+                        "burning": true,
+                        "decaying": false,
+                        "spreadable": true,
+                        "healthAmount": 1,
+                        "ignoreId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "instigatorId": {
+                            "id": "Fire_Candle_Chandelier_(-15.20, 11.76, -13.68)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.World.FireSource+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "FireSource",
+            "id": {
+                "id": "Fire_Candle_Chandelier_(3.58, 11.76, -4.39)",
+                "guid": ""
+            },
+            "entityId": "fire_candle_chandelier",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "fire",
+                    "data": {
+                        "burning": true,
+                        "decaying": false,
+                        "spreadable": true,
+                        "healthAmount": 1,
+                        "ignoreId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "instigatorId": {
+                            "id": "Fire_Candle_Chandelier_(3.58, 11.76, -4.39)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.World.FireSource+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Door",
+            "id": {
+                "id": "Door_Swing_(13.33, -18.25, -5.50)",
+                "guid": ""
+            },
+            "entityId": "door_swing",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "door",
+                    "data": {
+                        "amount": 1.0,
+                        "stopped": false,
+                        "speed": 0.0,
+                        "moveState": 0,
+                        "blockFlags": 0,
+                        "instigatorId": {
+                            "id": "Player_(9.00, 0.00, -5.00)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.World.Door+DoorData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Physics_Plate_Wood (2)",
+            "id": {
+                "id": "Physics_Plate_Wood_(26.92, -9.72, -29.36)",
+                "guid": ""
+            },
+            "entityId": "physics_plate_wood",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 26.9015769958496,
+                "y": -10.1382102966309,
+                "z": -29.3672618865967
+            },
+            "rotation": {
+                "x": 280.623687744141,
+                "y": 131.258087158203,
+                "z": 327.293548583984
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 3,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": false,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Frob_Button_1",
+            "id": {
+                "id": "Frob_Button_1_(38.00, -7.55, -22.89)",
+                "guid": ""
+            },
+            "entityId": "frob_button",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Frob_Button_1",
+            "id": {
+                "id": "Frob_Button_1_(40.00, 3.20, -23.50)",
+                "guid": ""
+            },
+            "entityId": "frob_button",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "NavMeshCollider",
+            "id": {
+                "id": "NavMeshCollider_(33.50, 16.15, -32.40)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": false,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_WaxCylinder",
+            "id": {
+                "id": "",
+                "guid": "0uOIWeW2N0KVcbtPh7cShQ=="
+            },
+            "entityId": "pickup_waxcylinder",
+            "active": true,
+            "type": "Object",
+            "flags": 3,
+            "position": {
+                "x": 13.3429002761841,
+                "y": 16.8355293273926,
+                "z": -43.4421081542969
+            },
+            "rotation": {
+                "x": 5.208019138081E-05,
+                "y": 329.999938964844,
+                "z": 90.0000152587891
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": true,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Entity_Physics_Crate_Ammo_Shotgun",
+            "id": {
+                "id": "",
+                "guid": "29x2f9+ad0moqQZBTO8zHA=="
+            },
+            "entityId": "physics_crate_ammo_shotgun",
+            "active": true,
+            "type": "Object",
+            "flags": 3,
+            "position": {
+                "x": 38.2953414916992,
+                "y": 17.3749961853027,
+                "z": -16.8349990844727
+            },
+            "rotation": {
+                "x": -5.55593396711629E-06,
+                "y": 22.125072479248,
+                "z": -3.68451655958779E-05
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        }
+    ],
+    "logic": [
+        {
+            "name": "Spawner_MedHypo",
+            "id": {
+                "id": "Spawner_MedHypo_(-14.94, -9.23, -8.75)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "AITask_Patrol_1stFloor",
+            "id": {
+                "id": "AITask_Patrol_1stFloor_(0.00, 0.00, 0.00)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "ai_relay",
+                    "data": {
+                        "played": true,
+                        "running": false,
+                        "timer": 0.0,
+                        "$type": "Gloomwood.AI.Tasks.AITaskRelay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_UndertakerBolt_Incendiary",
+            "id": {
+                "id": "Spawner_Pickup_UndertakerBolt_Incendiary_(42.34, 0.90, -42.75)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_UndertakerBolt_Choke",
+            "id": {
+                "id": "Spawner_Pickup_UndertakerBolt_Choke_(25.83, -10.12, -29.09)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_RevolverRoundBox",
+            "id": {
+                "id": "Spawner_Pickup_RevolverRoundBox_(43.28, 0.21, -50.59)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_RevolverRound",
+            "id": {
+                "id": "Spawner_Pickup_RevolverRound_(6.66, 0.27, -51.55)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_RevolverRoundBox",
+            "id": {
+                "id": "Spawner_Pickup_RevolverRoundBox_(-2.53, 0.54, -24.67)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_WaxCylinder",
+            "id": {
+                "id": "Spawner_Pickup_WaxCylinder_(13.34, 16.82, -43.44)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_WaxCylinder",
+            "id": {
+                "id": "Spawner_Pickup_WaxCylinder_(15.87, -8.85, -14.33)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_ShotgunShell",
+            "id": {
+                "id": "Spawner_Pickup_ShotgunShell_(26.59, 8.93, -51.32)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_RevolverRound",
+            "id": {
+                "id": "Spawner_Pickup_RevolverRound_(6.97, 0.27, -51.74)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_ShotgunShellBox",
+            "id": {
+                "id": "Spawner_Pickup_ShotgunShellBox_(15.15, 8.73, -52.07)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_ShotgunShell",
+            "id": {
+                "id": "Spawner_Pickup_ShotgunShell_(22.69, 16.71, -17.22)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_ShotgunShellBox",
+            "id": {
+                "id": "Spawner_Pickup_ShotgunShellBox_(42.03, 8.43, -52.93)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_UndertakerBolt_Slug",
+            "id": {
+                "id": "Spawner_Pickup_UndertakerBolt_Slug_(41.70, 17.01, -52.98)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Physics_Crate_Ammo_Shotgun",
+            "id": {
+                "id": "Spawner_Physics_Crate_Ammo_Shotgun_(38.30, 17.53, -16.84)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_RevolverRoundBox (1)",
+            "id": {
+                "id": "Spawner_Pickup_RevolverRoundBox (1)_(-13.25, -10.25, -23.48)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Goatman_Patrol_Initiate",
+            "id": {
+                "id": "Logic_Goatman_Patrol_Initiate_(0.00, 0.00, 0.00)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_relay",
+                    "data": {
+                        "played": true,
+                        "running": false,
+                        "delay": 0.0,
+                        "timer": 7.01651287078857,
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "$type": "Gloomwood.Levels.Logic.LogicRelay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Goatman_Patrol_1stFloor",
+            "id": {
+                "id": "Logic_Goatman_Patrol_1stFloor_(0.00, 0.00, 0.00)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_relay",
+                    "data": {
+                        "played": true,
+                        "running": false,
+                        "delay": 0.0,
+                        "timer": 3.0166220664978,
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "$type": "Gloomwood.Levels.Logic.LogicRelay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Counter_Goatman_Patrol",
+            "id": {
+                "id": "Logic_Counter_Goatman_Patrol_(0.00, 0.00, 0.00)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_counter",
+                    "data": {
+                        "value": 1,
+                        "instigatorId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "$type": "Gloomwood.Levels.Logic.LogicCounter+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_Woodsman_Death",
+            "id": {
+                "id": "Logic_Trigger_Woodsman_Death_(5.00, -5.50, -17.75)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": false,
+                        "playedEnter": false,
+                        "playedExit": false,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_SetGoatmanPatrol_1stFloor",
+            "id": {
+                "id": "Logic_Trigger_SetGoatmanPatrol_1stFloor_(38.00, 0.00, -21.40)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": false,
+                        "playedExit": false,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_SetGoatmanPatrol_Basement",
+            "id": {
+                "id": "Logic_Trigger_SetGoatmanPatrol_Basement_(38.00, -1.25, -21.40)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": false,
+                        "playedExit": false,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_Goatman_Patrol_Initiate",
+            "id": {
+                "id": "Logic_Trigger_Goatman_Patrol_Initiate_(28.25, 8.00, -27.75)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": true,
+                        "playedExit": false,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_SetGoatmanPatrol_1stFloor",
+            "id": {
+                "id": "Logic_Trigger_SetGoatmanPatrol_1stFloor_(-5.75, 2.13, -3.75)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": false,
+                        "playedExit": false,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_SetGoatmanPatrol_Basement",
+            "id": {
+                "id": "Logic_Trigger_SetGoatmanPatrol_Basement_(-21.50, -6.38, -7.67)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": false,
+                        "playedExit": false,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_AmmoBox_Shotgun",
+            "id": {
+                "id": "",
+                "guid": "ivfBonlksEq1MiwJfc3qtQ=="
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 3,
+            "position": {
+                "x": 38.2953414916992,
+                "y": 17.3749961853027,
+                "z": -16.8349990844727
+            },
+            "rotation": {
+                "x": -5.55593396711629E-06,
+                "y": 22.125072479248,
+                "z": -3.68451655958779E-05
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        }
+    ],
+    "$type": "Gloomwood.Levels.LevelStateData"
+}

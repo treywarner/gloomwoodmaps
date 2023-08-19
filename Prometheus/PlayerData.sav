@@ -1,0 +1,142 @@
+{
+    "playerId": 0,
+    "objectData": {
+        "name": "Player",
+        "id": {
+            "id": "Player_(0.00, 0.00, 0.00)",
+            "guid": ""
+        },
+        "entityId": "player",
+        "active": true,
+        "type": "Player",
+        "flags": 1,
+        "position": {
+            "x": 25.4670219421387,
+            "y": -23.8850021362305,
+            "z": 248.413391113281
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 344.345367431641,
+            "z": 0.0
+        },
+        "components": [
+            {
+                "id": "mobility",
+                "data": {
+                    "crouch": false,
+                    "breathTime": 30.0,
+                    "$type": "Gloomwood.Players.PlayerMovement+PlayerMobilityData"
+                }
+            },
+            {
+                "id": "health",
+                "data": {
+                    "percentage": 0.939999997615814,
+                    "invincibilityTime": 0.0,
+                    "invincibilityFrames": 0,
+                    "$type": "Gloomwood.Entity.EntityHealth+HealthData"
+                }
+            },
+            {
+                "id": "sounds",
+                "data": {
+                    "music": true,
+                    "musicTrack": "music_market_batbarber",
+                    "musicLoop": true,
+                    "musicPaused": true,
+                    "musicBlocked": true,
+                    "musicTime": 385.623687744141,
+                    "musicPriority": 0,
+                    "$type": "Gloomwood.Players.PlayerSounds+StateData"
+                }
+            },
+            {
+                "id": "control",
+                "data": {
+                    "controlMode": "FirstPerson",
+                    "lastControlMode": "FirstPerson",
+                    "$type": "Gloomwood.Players.PlayerControlState+PlayerControlData"
+                }
+            },
+            {
+                "id": "equipment",
+                "data": {
+                    "hasWeapon": false,
+                    "hasOffhand": false,
+                    "forcedDrawnState": 0,
+                    "activeDrawnState": 0,
+                    "offhandForcedState": 0,
+                    "offhandDrawnState": 0,
+                    "inspected": [
+                        "item_undertaker",
+                        "item_shotgun"
+                    ],
+                    "weaponData": null,
+                    "weaponLinkData": null,
+                    "offhandData": null,
+                    "offhandLinkData": null,
+                    "inventoryData": {
+                        "items": [
+                            {
+                                "id": "item_luggagecase",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "",
+                                "onGrid": false,
+                                "gridId": "",
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_journal",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 1,
+                                "keyId": "",
+                                "onGrid": true,
+                                "gridId": "grid_journal",
+                                "grid": {
+                                    "index": 0,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            },
+                            {
+                                "id": "item_key_standard",
+                                "quantity": 1,
+                                "loadedType": "",
+                                "loadedQuantity": 0,
+                                "flags": 0,
+                                "keyId": "market_barbershop_basement",
+                                "onGrid": false,
+                                "gridId": "",
+                                "grid": {
+                                    "index": -1,
+                                    "positionX": 0,
+                                    "positionY": 0,
+                                    "rotation": 0
+                                }
+                            }
+                        ],
+                        "shortcuts": [],
+                        "$type": "Gloomwood.Entity.Items.PlayerInventory+InventoryData"
+                    },
+                    "journalData": {
+                        "readables": [],
+                        "$type": "Gloomwood.Entity.Items.PlayerJournal+StateData"
+                    },
+                    "$type": "Gloomwood.Players.PlayerEquipment+StateData"
+                }
+            }
+        ]
+    }
+}

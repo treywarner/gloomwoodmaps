@@ -1,0 +1,13 @@
+{
+    "difficulty": 3,
+    "level": "City_Market",
+    "levels": [
+        "Coast_Fishery",
+        "Coast_Caves",
+        "Coast_Cliffside",
+        "Coast_Tavern",
+        "City_Market",
+        "City_Market_Shop"
+    ],
+    "$version": "v1"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Last Man Standing",
+    "description": "Finish the job.",
+    "difficulty": "Blood Moon",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 6
+    },
+    "saveType": "Standard",
+    "saveSlot": 5,
+    "dateTime": "07/27/23 10:11:43",
+    "gameTime": 0.0,
+    "$version": "v1"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Bubert Invasion",
+    "description": "Coast_Fishery",
+    "difficulty": "Full Moon",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 6
+    },
+    "saveType": "Standard",
+    "saveSlot": 3,
+    "dateTime": "06/04/23 18:51:12",
+    "gameTime": 0.0,
+    "$version": "v1"
+}

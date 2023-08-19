@@ -1,0 +1,16 @@
+{
+    "menuStyle": 0,
+    "globalValues": {
+        "pairs": [
+            {
+                "key": "cliffside_reached",
+                "value": "1"
+            },
+            {
+                "key": "merchant_shop_intro",
+                "value": "1"
+            }
+        ],
+        "$type": "Gloomwood.SerializableKeyValueDict+StateData"
+    }
+}

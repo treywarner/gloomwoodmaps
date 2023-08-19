@@ -1,0 +1,15 @@
+{
+    "name": "Tavern Thievery",
+    "description": "Coast_Cliffside",
+    "difficulty": "Blood Moon",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 6
+    },
+    "saveType": "Standard",
+    "saveSlot": 7,
+    "dateTime": "07/10/23 6:34:19",
+    "gameTime": 0.0,
+    "$version": "v1"
+}

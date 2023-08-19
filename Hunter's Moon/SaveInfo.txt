@@ -1,0 +1,15 @@
+{
+    "name": "Gloomwood: Hunter's Moon",
+    "description": "Coast_Fishery",
+    "difficulty": "Full Moon",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 6
+    },
+    "saveType": "Standard",
+    "saveSlot": 0,
+    "dateTime": "07/05/23 13:33:20",
+    "gameTime": 0.0,
+    "$version": "v1"
+}

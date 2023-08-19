@@ -1,0 +1,1792 @@
+{
+    "levelID": "City_Market_Shop",
+    "ai": [
+        {
+            "name": "AI_Merchant",
+            "id": {
+                "id": "AI_Merchant_(0.00, 0.00, 10.00)",
+                "guid": ""
+            },
+            "entityId": "ai_merchant",
+            "active": true,
+            "type": "AI",
+            "flags": 1,
+            "position": {
+                "x": 2.65240623775753E-06,
+                "y": 0.0,
+                "z": 10.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 179.999923706055,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "mobility",
+                    "data": {
+                        "navMeshPosition": {
+                            "x": 2.65240623775753E-06,
+                            "y": 0.0,
+                            "z": 10.0
+                        },
+                        "leashGoal": {
+                            "target": {
+                                "x": 2.65240623775753E-06,
+                                "y": 0.0,
+                                "z": 10.0
+                            },
+                            "speed": "Stopped",
+                            "speedMod": 1.0,
+                            "accelerationMod": 1.0,
+                            "face": {
+                                "faceType": "SetDirection",
+                                "faceSpeedMod": 1.0,
+                                "target": {
+                                    "x": 1.3262032325656E-06,
+                                    "y": 0.0,
+                                    "z": -1.0
+                                }
+                            },
+                            "path": {
+                                "points": null,
+                                "length": -1.0,
+                                "areaMask": 0,
+                                "status": "PathInvalid",
+                                "sourcePath": null
+                            }
+                        },
+                        "navLinkData": {
+                            "State": "None",
+                            "StartPos": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "EndPos": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Duration": 0.0,
+                            "Timer": 0.0,
+                            "ParabolaHeight": 0.0,
+                            "OnLink": false,
+                            "WasOnLink": false
+                        },
+                        "lerpData": {
+                            "Start": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "End": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "Duration": 0.0,
+                            "timer": 0.0,
+                            "isActive": false
+                        },
+                        "delayMoveTime": 0.0,
+                        "immobilizeTime": 0.0,
+                        "stopDistance": 0.0,
+                        "$type": "Gloomwood.AI.AIMobility+AIMobilityData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        }
+    ],
+    "corpses": [],
+    "pickups": [
+        {
+            "name": "Pickup_Medhypo",
+            "id": {
+                "id": "Pickup_Medhypo_(10.81, 2.24, -3.66)",
+                "guid": ""
+            },
+            "entityId": "pickup_medhypo",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 10.8103523254395,
+                "y": 2.24309062957764,
+                "z": -3.65931916236877
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 270.000061035156,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "pickup",
+                    "data": {
+                        "stored": false,
+                        "attached": false,
+                        "item": false,
+                        "drag": false,
+                        "rolledLoot": false,
+                        "vendor": true,
+                        "quantity": 1,
+                        "loadedQuantity": 0,
+                        "loadedType": "",
+                        "chamberStates": null,
+                        "keyId": "",
+                        "examineId": null,
+                        "attachData": null,
+                        "$type": "Gloomwood.Entity.Items.ItemPickup+StateData"
+                    }
+                },
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": false,
+                        "kinematic": true,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Monocle",
+            "id": {
+                "id": "Pickup_Monocle_(10.81, 2.24, -1.16)",
+                "guid": ""
+            },
+            "entityId": "pickup_monocle",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": 11.0603542327881,
+                "y": 2.20943713188171,
+                "z": -1.15931951999664
+            },
+            "rotation": {
+                "x": 1.11139820546668E-06,
+                "y": 270.000061035156,
+                "z": -6.82890777170542E-06
+            },
+            "components": [
+                {
+                    "id": "pickup",
+                    "data": {
+                        "stored": false,
+                        "attached": false,
+                        "item": false,
+                        "drag": false,
+                        "rolledLoot": false,
+                        "vendor": true,
+                        "quantity": 1,
+                        "loadedQuantity": 1,
+                        "loadedType": "",
+                        "chamberStates": null,
+                        "keyId": "",
+                        "examineId": null,
+                        "attachData": null,
+                        "$type": "Gloomwood.Entity.Items.ItemPickup+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Entity_Pickup_RevolverRoundBox",
+            "id": {
+                "id": "Pickup_RevolverRoundBox_(-11.03, 2.96, 3.22)",
+                "guid": ""
+            },
+            "entityId": "pickup_revolverroundbox",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Entity_Pickup_ShotgunShellBox",
+            "id": {
+                "id": "Pickup_ShotgunShellBox_(-11.03, 2.96, 4.72)",
+                "guid": ""
+            },
+            "entityId": "pickup_shotgunshellbox",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": -11.0270004272461,
+                "y": 2.96000027656555,
+                "z": 4.7239990234375
+            },
+            "rotation": {
+                "x": 333.75,
+                "y": 90.0001831054688,
+                "z": 9.51945025917666E-07
+            },
+            "components": [
+                {
+                    "id": "pickup",
+                    "data": {
+                        "stored": false,
+                        "attached": false,
+                        "item": false,
+                        "drag": false,
+                        "rolledLoot": false,
+                        "vendor": true,
+                        "quantity": 5,
+                        "loadedQuantity": 0,
+                        "loadedType": "",
+                        "chamberStates": null,
+                        "keyId": "",
+                        "examineId": null,
+                        "attachData": null,
+                        "$type": "Gloomwood.Entity.Items.ItemPickup+StateData"
+                    }
+                },
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": false,
+                        "kinematic": true,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver (1)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(-10.78, 10.10, 10.89)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": -10.7798337936401,
+                "y": 10.0967359542847,
+                "z": 10.8944644927979
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": true,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Coin_Silver (2)",
+            "id": {
+                "id": "Pickup_Coin_Gold_(-10.18, 10.10, 10.65)",
+                "guid": ""
+            },
+            "entityId": "pickup_coin",
+            "active": true,
+            "type": "Pickup",
+            "flags": 1,
+            "position": {
+                "x": -10.1778001785278,
+                "y": 10.0967359542847,
+                "z": 10.6513004302979
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": true,
+                        "kinematic": false,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Undertaker",
+            "id": {
+                "id": "Pickup_Undertaker_(-4.34, 2.00, 7.17)",
+                "guid": ""
+            },
+            "entityId": "pickup_undertaker",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Shotgun",
+            "id": {
+                "id": "",
+                "guid": "iz90AENSE0WF9ApeIrlorw=="
+            },
+            "entityId": "pickup_shotgun",
+            "active": false,
+            "type": "Pickup",
+            "flags": 2,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_Undertaker_Ammo_Choke_Bundle",
+            "id": {
+                "id": "Pickup_Undertaker_Ammo_Choke_(6.98, 2.24, -7.08)",
+                "guid": ""
+            },
+            "entityId": "pickup_undertaker_choke",
+            "active": false,
+            "type": "Pickup",
+            "flags": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_ShotgunShell",
+            "id": {
+                "id": "",
+                "guid": "sCj1ko09xESd6ImbTYR/Yg=="
+            },
+            "entityId": "pickup_shotgunshell",
+            "active": false,
+            "type": "Pickup",
+            "flags": 3,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        }
+    ],
+    "objs": [
+        {
+            "name": "ShopItemSpawner_DisplayCase_1",
+            "id": {
+                "id": "ShopItemSpawner_DisplayCase_1_(-4.34, 1.88, 7.17)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "shop_display",
+                    "data": {
+                        "stocked": false,
+                        "stockCount": 1,
+                        "pickupId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "quantity": 0,
+                        "loadedQuantity": 0,
+                        "$type": "Gloomwood.ShopItemDisplay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "ShopItemSpawner_DisplayCase_2 (1)",
+            "id": {
+                "id": "ShopItemSpawner_DisplayCase_2 (1)_(10.44, 2.17, -1.16)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "shop_display",
+                    "data": {
+                        "stocked": true,
+                        "stockCount": 1,
+                        "pickupId": {
+                            "id": "Pickup_Monocle_(10.81, 2.24, -1.16)",
+                            "guid": ""
+                        },
+                        "quantity": 1,
+                        "loadedQuantity": 1,
+                        "$type": "Gloomwood.ShopItemDisplay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "ShopItemSpawner_DisplayStand_1 (2)",
+            "id": {
+                "id": "ShopItemSpawner_DisplayStand_1 (2)_(-11.29, 2.40, 4.72)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "shop_display",
+                    "data": {
+                        "stocked": true,
+                        "stockCount": 1,
+                        "pickupId": {
+                            "id": "Pickup_ShotgunShellBox_(-11.03, 2.96, 4.72)",
+                            "guid": ""
+                        },
+                        "quantity": 5,
+                        "loadedQuantity": 0,
+                        "$type": "Gloomwood.ShopItemDisplay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "FireSource",
+            "id": {
+                "id": "Fire_Candle_Chandelier_(-0.60, 13.55, 23.27)",
+                "guid": ""
+            },
+            "entityId": "fire_candle_chandelier",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "fire",
+                    "data": {
+                        "burning": true,
+                        "decaying": false,
+                        "spreadable": true,
+                        "healthAmount": 1,
+                        "ignoreId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "instigatorId": {
+                            "id": "Fire_Candle_Chandelier_(-0.60, 13.55, 23.27)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.World.FireSource+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "FireSource",
+            "id": {
+                "id": "Fire_Candle_Chandelier_(0.25, 7.18, -2.50)",
+                "guid": ""
+            },
+            "entityId": "fire_candle_chandelier",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "fire",
+                    "data": {
+                        "burning": true,
+                        "decaying": false,
+                        "spreadable": true,
+                        "healthAmount": 1,
+                        "ignoreId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "instigatorId": {
+                            "id": "Fire_Candle_Chandelier_(0.25, 7.18, -2.50)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.World.FireSource+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_WaxCylinder",
+            "id": {
+                "id": "Pickup_WaxCylinder_(4.73, 2.24, -7.08)",
+                "guid": ""
+            },
+            "entityId": "pickup_waxcylinder",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 4.72599983215332,
+                "y": 2.27029967308044,
+                "z": -7.07499980926514
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 8.53773542530689E-07,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "pickup",
+                    "data": {
+                        "stored": false,
+                        "attached": false,
+                        "item": false,
+                        "drag": false,
+                        "rolledLoot": false,
+                        "vendor": true,
+                        "quantity": 1,
+                        "loadedQuantity": 1,
+                        "loadedType": "",
+                        "chamberStates": null,
+                        "keyId": "",
+                        "examineId": null,
+                        "attachData": null,
+                        "$type": "Gloomwood.Entity.Items.ItemPickup+StateData"
+                    }
+                },
+                {
+                    "id": "physics",
+                    "data": {
+                        "state": 1,
+                        "constraint": false,
+                        "parentConstraint": false,
+                        "gravity": false,
+                        "kinematic": true,
+                        "centerOffset": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "carrierId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "attached": false,
+                        "attachment": {
+                            "targetId": {
+                                "id": null,
+                                "guid": null
+                            },
+                            "boneId": null,
+                            "position": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parented": false,
+                            "snap": false
+                        },
+                        "$type": "Gloomwood.Entity.PhysicsBehaviour+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "ShopItemSpawner_DisplayCase_2 (3)",
+            "id": {
+                "id": "ShopItemSpawner_DisplayCase_2 (3)_(6.98, 2.17, -6.70)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "shop_display",
+                    "data": {
+                        "stocked": false,
+                        "stockCount": 1,
+                        "pickupId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "quantity": 0,
+                        "loadedQuantity": 0,
+                        "$type": "Gloomwood.ShopItemDisplay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "ShopItemSpawner_DisplayStand_1 (1)",
+            "id": {
+                "id": "ShopItemSpawner_DisplayStand_1 (1)_(-11.29, 2.40, 3.22)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "shop_display",
+                    "data": {
+                        "stocked": false,
+                        "stockCount": 1,
+                        "pickupId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "quantity": 0,
+                        "loadedQuantity": 0,
+                        "$type": "Gloomwood.ShopItemDisplay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Door",
+            "id": {
+                "id": "Door_Swing_(1.75, 0.00, -9.64)",
+                "guid": ""
+            },
+            "entityId": "door_swing",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "door",
+                    "data": {
+                        "amount": 1.0,
+                        "stopped": false,
+                        "speed": 0.0,
+                        "moveState": 0,
+                        "blockFlags": 0,
+                        "instigatorId": {
+                            "id": "Player_(0.00, 0.00, -6.25)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.World.Door+DoorData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "ShopItemSpawner_DisplayCase_2 (4)",
+            "id": {
+                "id": "ShopItemSpawner_DisplayCase_2 (4)_(4.73, 2.17, -6.70)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "shop_display",
+                    "data": {
+                        "stocked": true,
+                        "stockCount": 1,
+                        "pickupId": {
+                            "id": "Pickup_WaxCylinder_(4.73, 2.24, -7.08)",
+                            "guid": ""
+                        },
+                        "quantity": 1,
+                        "loadedQuantity": 1,
+                        "$type": "Gloomwood.ShopItemDisplay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Handlantern_Light",
+            "id": {
+                "id": "Handlantern_Light_(-40.76, 14.60, 253.54)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "light",
+                    "data": {
+                        "brightness": 1.0,
+                        "flags": 1,
+                        "$type": "Gloomwood.World.Lighting.LightSource+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "ShopItemSpawner_DisplayCase_2 (2)",
+            "id": {
+                "id": "ShopItemSpawner_DisplayCase_2 (2)_(10.44, 2.17, -3.66)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "shop_display",
+                    "data": {
+                        "stocked": true,
+                        "stockCount": 1,
+                        "pickupId": {
+                            "id": "Pickup_Medhypo_(10.81, 2.24, -3.66)",
+                            "guid": ""
+                        },
+                        "quantity": 1,
+                        "loadedQuantity": 0,
+                        "$type": "Gloomwood.ShopItemDisplay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Frob_Safe_1",
+            "id": {
+                "id": "Frob_Safe_1_(-2.03, 8.57, -6.90)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Object",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "combination",
+                    "data": {
+                        "code": [
+                            4,
+                            5,
+                            1
+                        ],
+                        "$type": "Gloomwood.World.CombinationLock+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_WaxCylinder",
+            "id": {
+                "id": "",
+                "guid": "RDHn2iD0qkuUMnGOkNIPJQ=="
+            },
+            "entityId": "pickup_waxcylinder",
+            "active": true,
+            "type": "Object",
+            "flags": 3,
+            "position": {
+                "x": -1.60746395587921,
+                "y": 9.44180679321289,
+                "z": -7.03220415115356
+            },
+            "rotation": {
+                "x": 0.000128087238408625,
+                "y": 331.97314453125,
+                "z": -0.000305686990031973
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Pickup_WaxCylinder",
+            "id": {
+                "id": "",
+                "guid": "DJA20ZqylUacG0lTOJbMgA=="
+            },
+            "entityId": "pickup_waxcylinder",
+            "active": true,
+            "type": "Object",
+            "flags": 3,
+            "position": {
+                "x": -1.92370307445526,
+                "y": 9.38680744171143,
+                "z": -7.23877954483032
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 347.305114746094,
+                "z": 0.0
+            },
+            "components": [],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        }
+    ],
+    "logic": [
+        {
+            "name": "Logic_Trigger_Backroom_Enter",
+            "id": {
+                "id": "Logic_Trigger_Backroom_Enter_(0.00, 8.75, 23.50)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": true,
+                        "playedExit": true,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_UI_EarlyAccessEndScreen",
+            "id": {
+                "id": "Logic_Trigger_UI_EarlyAccessEndScreen_(-2.91, 9.00, 6.00)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": true,
+                        "playedExit": true,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_Shop_Enter",
+            "id": {
+                "id": "Logic_Trigger_Shop_Enter_(-5.50, 0.00, 1.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": true,
+                        "playedExit": true,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_WaxCylinder",
+            "id": {
+                "id": "Spawner_Pickup_WaxCylinder_(0.89, 10.82, -3.18)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Relay_Merchant_Shop_Sell_Tutorial",
+            "id": {
+                "id": "Logic_Relay_Merchant_Shop_Sell_Tutorial_(-15.98, -2.87, 10.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_relay",
+                    "data": {
+                        "played": true,
+                        "running": false,
+                        "delay": 0.0,
+                        "timer": 0.0,
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "$type": "Gloomwood.Levels.Logic.LogicRelay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Branch_Merchant_Shop_Sell_Tutorial",
+            "id": {
+                "id": "Logic_Branch_Merchant_Shop_Sell_Tutorial_(-15.98, -2.87, 10.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_branch",
+                    "data": {
+                        "value": true,
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "$type": "Gloomwood.Levels.Logic.LogicBranch+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Con_Merchant_Shop_Rest",
+            "id": {
+                "id": "Logic_Con_Merchant_Shop_Rest_(-15.98, -2.87, 10.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_choreographer",
+                    "data": {
+                        "played": true,
+                        "waiting": false,
+                        "waitForPlay": false,
+                        "cancelled": false,
+                        "delay": -0.00679044332355261,
+                        "timer": 12.4772634506226,
+                        "sequence": 0,
+                        "speaker": 0,
+                        "state": 4,
+                        "nodes": [],
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "targetIds": [],
+                        "$type": "Gloomwood.Levels.Logic.LogicChoreographer+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Con_Merchant_Shop_Buy_Successful",
+            "id": {
+                "id": "Logic_Con_Merchant_Shop_Buy_Successful_(-15.98, -2.87, 10.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_choreographer",
+                    "data": {
+                        "played": true,
+                        "waiting": false,
+                        "waitForPlay": false,
+                        "cancelled": false,
+                        "delay": -0.0067959213629365,
+                        "timer": 2.68710970878601,
+                        "sequence": 0,
+                        "speaker": 0,
+                        "state": 4,
+                        "nodes": [
+                            1,
+                            2
+                        ],
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "targetIds": [],
+                        "$type": "Gloomwood.Levels.Logic.LogicChoreographer+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Spawner_Pickup_WaxCylinder (1)",
+            "id": {
+                "id": "Spawner_Pickup_WaxCylinder (1)_(0.81, 10.82, -2.89)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "spawn",
+                    "data": {
+                        "waiting": false,
+                        "frameCount": 0,
+                        "spawnCount": 1,
+                        "$type": "Gloomwood.Entity.EntitySpawn+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Counter_Narrative",
+            "id": {
+                "id": "Logic_Counter_Narrative_(0.00, 0.00, 0.00)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_counter",
+                    "data": {
+                        "value": 2,
+                        "instigatorId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "$type": "Gloomwood.Levels.Logic.LogicCounter+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Con_Merchant_Shop_Enter",
+            "id": {
+                "id": "Logic_Con_Merchant_Shop_Enter_(-15.98, -2.87, 10.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_choreographer",
+                    "data": {
+                        "played": true,
+                        "waiting": false,
+                        "waitForPlay": false,
+                        "cancelled": false,
+                        "delay": -0.00679293135181069,
+                        "timer": 6.61924648284912,
+                        "sequence": 0,
+                        "speaker": 0,
+                        "state": 4,
+                        "nodes": [
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "targetIds": [],
+                        "$type": "Gloomwood.Levels.Logic.LogicChoreographer+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_Shop_Narrative",
+            "id": {
+                "id": "Logic_Trigger_Shop_Narrative_(-0.44, 4.00, 2.38)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": true,
+                        "playedExit": true,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Relay_Merchant_Shop_Rest",
+            "id": {
+                "id": "Logic_Relay_Merchant_Shop_Rest_(0.00, 0.00, 0.00)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_relay",
+                    "data": {
+                        "played": true,
+                        "running": false,
+                        "delay": 0.0,
+                        "timer": 0.0,
+                        "targetId": {
+                            "id": "AI_Merchant_(0.00, 0.00, 10.00)",
+                            "guid": ""
+                        },
+                        "$type": "Gloomwood.Levels.Logic.LogicRelay+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Branch_Merchant_Shop_Intro",
+            "id": {
+                "id": "Logic_Branch_Merchant_Shop_Intro_(-15.98, -2.87, 10.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_branch",
+                    "data": {
+                        "value": true,
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "$type": "Gloomwood.Levels.Logic.LogicBranch+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Con_Merchant_Shop_Intro",
+            "id": {
+                "id": "Logic_Con_Merchant_Shop_Intro_(-15.98, -2.87, 10.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_choreographer",
+                    "data": {
+                        "played": true,
+                        "waiting": false,
+                        "waitForPlay": false,
+                        "cancelled": false,
+                        "delay": 0.0,
+                        "timer": 0.04166105017066,
+                        "sequence": 5,
+                        "speaker": 0,
+                        "state": 4,
+                        "nodes": [],
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "targetIds": [],
+                        "$type": "Gloomwood.Levels.Logic.LogicChoreographer+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Logic_Trigger_Shop_Sell",
+            "id": {
+                "id": "Logic_Trigger_Shop_Sell_(-1.75, 0.00, 6.60)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_trigger",
+                    "data": {
+                        "active": true,
+                        "playedEnter": true,
+                        "playedExit": true,
+                        "$type": "Gloomwood.Levels.Logic.LogicTrigger+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        },
+        {
+            "name": "Con_Merchant_Buy_Fail",
+            "id": {
+                "id": "Con_Merchant_Buy_Fail_(-15.98, -2.87, 10.35)",
+                "guid": ""
+            },
+            "entityId": "",
+            "active": true,
+            "type": "Logic",
+            "flags": 1,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "components": [
+                {
+                    "id": "logic_choreographer",
+                    "data": {
+                        "played": true,
+                        "waiting": false,
+                        "waitForPlay": false,
+                        "cancelled": false,
+                        "delay": -0.00679280236363411,
+                        "timer": 3.68002223968506,
+                        "sequence": 0,
+                        "speaker": 0,
+                        "state": 4,
+                        "nodes": [],
+                        "targetId": {
+                            "id": null,
+                            "guid": null
+                        },
+                        "targetIds": [],
+                        "$type": "Gloomwood.Levels.Logic.LogicChoreographer+StateData"
+                    }
+                }
+            ],
+            "$type": "Gloomwood.Saving.SaveObjectData"
+        }
+    ],
+    "$type": "Gloomwood.Levels.LevelStateData"
+}
